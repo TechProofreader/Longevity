@@ -12,3 +12,6 @@ Over time, I plan on adding more functionality to Longevity, such as:
 * the ability to choose different graph/plot types
 * the ability to analyze differences in data between morning/noon/evening readings
 
+A cool feature of Longevity is its active error checking functionality. During all user interaction, Longevity is actively monitoring for incorrect and/or bad input data so as to preserve the integrity of the user's data. It will prevent the user from inputting erroneous data so that there is no concern over the accuracy of its analysis and file structures.
+
+This software can be turned into a standalone program on various platforms such as Mac OS, Windows OS, and Linux via freezing the script itself by way of packages such as [py2app](https://pypi.org/project/py2app/), [py2exe](http://www.py2exe.org/), etc.
