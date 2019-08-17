@@ -17,7 +17,7 @@ A cool feature of Longevity is its active error checking functionality. During a
 
 Longevity utilizes [Matplotlib](https://matplotlib.org/) and [Seaborn](http://seaborn.pydata.org/) for its graphing functionality.
 
-Longevity utilizes [Pandas](https://github.com/pandas-dev/pandas) to create, save, and read the dataframe/csv files.
+Longevity utilizes [Pandas](https://github.com/pandas-dev/pandas) to create, save, and read the dataframes and csv files.
 
 The [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI) framework was utilized to create Longevity's graphical user interface.
 
