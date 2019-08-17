@@ -13,7 +13,7 @@ Over time, I plan on adding more functionality to Longevity, such as:
 * the ability to analyze differences in data between morning/noon/evening readings
 * and of course a cool logo!
 
-A cool feature of Longevity is its active error checking functionality. During all user interaction, Longevity is actively monitoring for incorrect and/or bad input data so as to preserve the integrity of the user's data. It will prevent the user from inputting erroneous data so that there is no concern over the accuracy of its analysis and file structures.
+A cool feature of Longevity is its active and extensive error checking functionality. During all user interaction, Longevity is actively monitoring for incorrect and/or bad input data so as to preserve the integrity of the user's data. It will prevent the user from inputting erroneous data so that there is no concern over the accuracy of its analysis and file structures.
 
 Longevity utilizes [Matplotlib](https://matplotlib.org/) and [Seaborn](http://seaborn.pydata.org/) for its graphing functionality, [Pandas](https://github.com/pandas-dev/pandas) to create, save, and read dataframes and csv files, and the [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI) framework to create the graphical user interface.
 
