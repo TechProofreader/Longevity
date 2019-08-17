@@ -15,4 +15,8 @@ Over time, I plan on adding more functionality to Longevity, such as:
 
 A cool feature of Longevity is its active error checking functionality. During all user interaction, Longevity is actively monitoring for incorrect and/or bad input data so as to preserve the integrity of the user's data. It will prevent the user from inputting erroneous data so that there is no concern over the accuracy of its analysis and file structures.
 
+Longevity utilizes [Matplotlib](https://matplotlib.org/) and [Seaborn](http://seaborn.pydata.org/) for its graphing functionality.
+
+The [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI) framework was utilized to create Longevity's graphical user interface.
+
 This software can be turned into a standalone program on various platforms such as Mac OS, Windows OS, and Linux via freezing the script itself by way of packages such as [py2app](https://pypi.org/project/py2app/), [py2exe](http://www.py2exe.org/), etc.
