@@ -1,4 +1,4 @@
-This program utilized Pandas to create, save, and read dataframes.
+This program utilized Pandas to create, save, and read dataframes and csv files.
 Pandas can be found here: https://github.com/pandas-dev/pandas.
 Pandas' license, https://github.com/pandas-dev/pandas/blob/master/LICENSE:
 
