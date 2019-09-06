@@ -15,6 +15,7 @@ pressureChart.to_csv(r'file path and name of your .csv file goes here', index=Fa
 
 # seed() allows for controlling the random sample because it returns the same numbers every time.
 # each seed stores the same set of numbers that it initially generated
+# if you wish to generate random data sets over each run, then simply remove the seed() function
 
 seed(1)
 systolicValues =randint(110, 180, 30) # generates random systolic numbers
