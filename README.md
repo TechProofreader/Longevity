@@ -20,3 +20,11 @@ A cool feature of Longevity is its active and extensive error checking functiona
 Longevity utilizes [Matplotlib](https://matplotlib.org/) and [Seaborn](http://seaborn.pydata.org/) for its graphing functionality, [Pandas](https://github.com/pandas-dev/pandas) to create, save, and read dataframes and csv files, and the [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI) framework to generate the graphical user interface.
 
 This software can be turned into a standalone program on various platforms such as Mac OS, Windows OS, and Linux via freezing the script itself by way of packages such as [py2app](https://pypi.org/project/py2app/), [py2exe](http://www.py2exe.org/), etc.
+
+<h2>To get and use Longevity on your machine</h2> 
+
+Simply download the [LongevityPressureProgram.py](https://github.com/TechProofreader/Longevity/blob/master/LongevityPressureProgram.py) file and use one of the freezing packages above to freeze it into a standalone program.
+
+If you would like to create some test data for research purposes or for any other reason, you should also download the [test module I wrote for Longevity](https://github.com/TechProofreader/Longevity/blob/master/bloodPressureTesting.py) and adjust the parameters as you see fit. This test module generates random blood pressure and heart rate data coupled with randomized dates and times. It's great for generating artificial patient data for general research, as well as data to test Longevity's functions against, or simply to analyze the time trends of certain data types.
+
+Enjoy and stay healthy!
