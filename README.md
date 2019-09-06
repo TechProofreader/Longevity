@@ -5,8 +5,8 @@ Longevity is a simple, but powerful cross-platform blood pressure analysis and t
 
 With Longevity, you can create and update "csv" files with your daily blood pressure readings, view a time trend of your readings, or you can view a violin plot of your where your readings commonly trend toward.
 
-![](https://github.com/TechProofreader/Longevity/blob/master/LongevityViolinPic.png)
 ![](https://github.com/TechProofreader/Longevity/blob/master/LongevityTimeTrend.png)
+![](https://github.com/TechProofreader/Longevity/blob/master/LongevityViolinPic.png)
 
 A cool feature of Longevity is its active and extensive error checking functionality. During all user interaction, Longevity is actively monitoring for incorrect and/or bad input data so as to preserve the integrity of the user's data. It will prevent the user from inputting erroneous data so that there is no concern over the accuracy of its analysis and user created file structures.
 
