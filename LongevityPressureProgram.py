@@ -1,5 +1,7 @@
 # Author: Ryan Reyes, github.com/TechProofreader
 # Version: 1.0.1
+# Copyright 2019 Ryan Reyes, github.com/Techproofreader
+# This program is distributed under the GNU Lesser General Public License v3.0
 
 from dateutil.parser import parse
 import matplotlib.pyplot as plot
