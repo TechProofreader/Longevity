@@ -238,13 +238,17 @@ while True:
         window.Element('Error').Update('Please select a valid file type ending in ".csv"')
 
     elif event == 'Trend' and ('.csv' == str(values['File'])[-4:]):
-        window.Element('Error').Update('')
-        w = pd.read_csv(values['File'])
-        w = w.set_index('Date').sort_values(by='Date')
-        trend_From_Read_File = w.plot.line()
-        plot.xticks(rotation=45)
-        plot.show()
-
+        try:
+            window.Element('Error').Update('')
+            w = pd.read_csv(values['File'])
+            w = w.set_index('Date').sort_values(by='Date')
+            trend_From_Read_File = w.plot.line()
+            plot.xticks(rotation=45)
+            plot.show()
+        except:
+            TypeError
+            window.Element('Error').Update('File is empty, there is nothing to plot.')
+                
     elif event == 'Trend' and ('.csv' != str(values['File'])[-4:]):
         window.Element('Error').Update('Please select a valid file type ending in ".csv"')
     
@@ -305,7 +309,7 @@ while True:
     elif event == 'About':
         sg.Popup('Author: Ryan Reyes, https://github.com/TechProofreader',
                  'Program Name: Longevity',
-                 'Version: 1.0',
+                 'Version: 1.0.1',
                  'The GUI of this program was created with the PySimpleGUI Framework',
                  'PySimpleGUI is licensed under the GNU Lesser General Public License v3.0',
                  'The creator of PySimpleGUI is: https://github.com/MikeTheWatchGuy',
