@@ -1,3 +1,6 @@
+# Author: Ryan Reyes, github.com/TechProofreader
+# Version: 1.0.1
+
 from dateutil.parser import parse
 import matplotlib.pyplot as plot
 import PySimpleGUI as sg
