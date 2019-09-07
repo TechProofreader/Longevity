@@ -17,6 +17,7 @@ This software can be turned into a standalone program on various platforms such 
 <h2>To get and use Longevity on your machine</h2> 
 
 **Dependencies required to run this program:**
+* Python script freezing package such as py2app, py2exe, or whichever you prefer
 * Matplotlib
 * Seaborn
 * Pandas
