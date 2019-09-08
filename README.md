@@ -23,7 +23,7 @@ This software can be turned into a standalone program on various platforms such 
 * Pandas
 * NumPy
 
-*Note: It is best to use the [pip package](https://pip.pypa.io/en/stable/)(which should already be installed if you have Python installed on your machine) to install Matplotlib, Seaborn, Pandas, and NumPy.*
+*Note: It is best to use the [pip package](https://pip.pypa.io/en/stable/) (which should already be installed if you have Python installed on your machine) to install Matplotlib, Seaborn, Pandas, and NumPy.*
 
 Simply download the [LongevityPressureProgram.py](https://github.com/TechProofreader/Longevity/blob/master/LongevityPressureProgram.py) file and use one of the freezing packages above (or whichever you prefer) to freeze it into a standalone program.
 
