@@ -299,9 +299,9 @@ while True:
             new_File = pd.DataFrame(columns=['Date', 'Time', 'Systolic', 'Diastolic', 'Heart Rate'])
             new_File.to_csv(values['location']+'/'+values['fileName']+'.csv', index=False)
             
-            start_time2 = int(time.time()) # the start of the success alert
+            start_time2 = int(time.time())
 
-            def successAlert2(): # the function that implements the timed success alert to display and remove to reappear when new data is successfully submitted again
+            def successAlert2():
                 elapsed2 = int(time.time()) - int(start_time2)
                 if elapsed2 != 2:
                     threading.Timer(2.0, successAlert2).start()
@@ -309,7 +309,7 @@ while True:
                 elif elapsed2 == 2:
                     window.Element('locationError').Update('')
 
-            successAlert2() # calling the success alert function to activate
+            successAlert2()
     
     elif event == 'About':
         sg.Popup('Author: Ryan Reyes, https://github.com/TechProofreader',
