@@ -220,7 +220,7 @@ while True:
 
             start_time = int(time.time()) # the start of the success alert
 
-            def successAlert(): # the function that implements the timed success alert to display and remove to reappear when new data is successfully submitted again
+            def successAlert(): # the function that implements the timed success alert to flash on screen when new data is successfully submitted again
                 elapsed = int(time.time()) - int(start_time)
                 if elapsed != 2:
                     threading.Timer(2.0, successAlert).start()
