@@ -40,7 +40,7 @@ Over time, I plan on adding more functionality to Longevity, such as:
 
 <h2>Additional Notes</h2>
 
-* I originally wrote this program in OOP style, but for reasons unknown to me at this point, PySimpleGUI would break without using redundant import schemes and heavily abstracted classes, which I felt made the program overly complex and error prone.
+* I originally wrote this program in OOP style, but for reasons unknown to me at this point, PySimpleGUI would break without using redundant import schemes and overly verbose classes, which I felt made the program overly complex and error prone.
 * I'm currently contemplating porting this over to a language such as C# to not only make it more accessible to audiences outside of the tech world, but to also **prettify** it, but we'll see.
 
 **Enjoy and stay healthy!**
