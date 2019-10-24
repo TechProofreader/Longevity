@@ -47,8 +47,6 @@ while True:
 
     event, values = window.Read()
 
-    x = values['File']
-
     def checkDate2(xu):
         try:
             datetime.datetime.strptime(xu, '%m/%d/%Y')
