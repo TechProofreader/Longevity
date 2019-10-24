@@ -38,14 +38,14 @@ Over time, I plan on adding more functionality to Longevity, such as:
 * the ability to analyze differences in data between morning/noon/evening readings
 * and of course a cool logo!
 
+<h2>Known Bugs</h2>
+
+* This program was written with Python 3.7.3, but right now, something with Python 3.7.4 and PySimpleGUI is not playing nice, so just be aware of this. The main issue is that while using running the program with Python 3.7.4 and clicking either of the graphing buttons results in a proper graph displaying, as well as a file browser window in the foreground (for no reason). This is being actively investigated and is not program breaking, just annoying, but be aware of it.
+
 <h2>Additional Notes</h2>
 
 * I originally wrote this program in OOP style, but for reasons unknown to me at this point, PySimpleGUI would break without using redundant import schemes and very verbose classes, which I felt made the program overly complex and error prone.
 * I'm currently contemplating porting this over to a language such as Java to not only make it more accessible to audiences outside of the tech world, but to also **prettify** it, but we'll see.
 * [Please read this important notice](https://github.com/TechProofreader/Longevity/blob/master/ImportantNoticePleaseRead.md)
-
-<h2>Known Bugs</h2>
-
-* This program was written with Python 3.7.3, but right now, something with Python 3.7.4 and PySimpleGUI is not playing nice, so just be aware of this. The main issue is that while using running the program with Python 3.7.4 and clicking either of the graphing buttons results in a proper graph displaying, as well as a file browser window in the foreground (for no reason). This is being actively investigated and is not program breaking, just annoying, but be aware of it.
 
 **Enjoy and stay healthy!**
