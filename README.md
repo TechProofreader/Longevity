@@ -46,6 +46,6 @@ Over time, I plan on adding more functionality to Longevity, such as:
 
 * I originally wrote this program in OOP style, but for reasons unknown to me at this point, PySimpleGUI would break without using redundant import schemes and very verbose classes, which I felt made the program overly complex and error prone.
 * I'm currently contemplating porting this over to a language such as Java to not only make it more accessible to audiences outside of the tech world, but to also **prettify** it, but we'll see.
-* [Please read this important notice](https://github.com/TechProofreader/Longevity/blob/master/ImportantNoticePleaseRead.md)
+* At this point in time, I am considering the work on Longevity to be complete in-relation to its open source edition. Thus, there will be no further updates to the currently listed code, at this point in time. Thank you, and I hope the software brings you increased health!
 
 **Enjoy and stay healthy!**
