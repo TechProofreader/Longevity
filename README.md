@@ -40,11 +40,10 @@ Over time, I plan on adding more functionality to Longevity, such as:
 
 <h2>Known Bugs</h2>
 
-* This program was written with Python 3.7.3, but right now, something with Python 3.7.4 and PySimpleGUI is not playing nice, so just be aware of this. The main issue is that while using running the program with Python 3.7.4 and clicking either of the graphing buttons results in a proper graph displaying, as well as a file browser window in the foreground (for no reason). This is being actively investigated and is not program breaking, just annoying, but be aware of it.
+* This program was written with Python 3.7.3, but right now, something with Python 3.7.4 and PySimpleGUI is not playing nice, so just be aware of this. The main issue is that while running the program with Python 3.7.4 and clicking either of the graphing buttons results in a proper graph displaying, as well as a file browser window in the foreground (for no reason). This is being actively investigated and is not program breaking, just annoying, but be aware of it. **Note: I later learned from the creater of PySimpleGUI, that he dislikes OOP concepts and has thus written PySimpleGUI to not work with regards to those concepts, which has caused many restrictions and workarounds, which is what is leading to this behavior. Unfortunately, the best course of action at this point in time is to port Longevity over to another more industry-standard platform.**
 
 <h2>Additional Notes</h2>
 
-* I originally wrote this program in OOP style, but for reasons unknown to me at this point, PySimpleGUI would break without using redundant import schemes and very verbose classes, which I felt made the program overly complex and error prone.
 * I'm currently contemplating porting this over to a language such as Java to not only make it more accessible to audiences outside of the tech world, but to also **prettify** it, but we'll see.
 * At this point in time, I am considering the work on Longevity to be complete in-relation to its open source edition. Thus, there will be no further updates to the currently listed code, at this point in time. Thank you, and I hope the software brings you increased health!
 
