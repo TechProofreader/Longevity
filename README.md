@@ -45,6 +45,7 @@ Over time, I plan on adding more functionality to Longevity, such as:
 <h2>Additional Notes</h2>
 
 * I'm currently contemplating porting this over to a language such as Java to not only make it more accessible to audiences outside of the tech world, but to also **prettify** it, but we'll see.
-* At this point in time, I am considering the work on Longevity to be complete in-relation to its open source edition. Thus, there will be no further updates to the currently listed code, at this point in time. Thank you, and I hope the software brings you increased health!
+* Yes, I love camel case, and yes, I do know that standard Python protocol utilizes snake case, but since this is a personal project, I chose my preference, camel case. Rest assured, a full-blown enterprise edition would certainly be up to PEP standards.
+* At this point in time, I am considering the work on Longevity to be complete in-relation to its open source edition. Thus, there will be no further updates to the currently listed code, at this point in time. Thank you, and I hope the software brings you increased health, as it is a solid, tweakable code base that is available to anyone who is interested :)
 
 **Enjoy and stay healthy!**
