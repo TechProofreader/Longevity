@@ -1,5 +1,7 @@
 # Longevity (Current Version: 1.0.1)
 
+_Note: This is a Moderate to Hard Level program that you can use to further your Python knowledge by first learning how the base program works, and then extending the program with your own additions. As this was more of a personal project, do understand that I did not use all of Python's standardizations. In the professional world, unless there is a specific reason, it is best to stick with a language and framework's standardized practices._
+
 Longevity is a simple, but powerful cross-platform blood pressure analysis and tracking tool written in Python.
 ![](https://raw.githubusercontent.com/TechProofreader/Longevity/master/LongevityPic.png)
 
